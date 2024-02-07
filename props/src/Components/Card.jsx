@@ -1,12 +1,19 @@
 import React from 'react'
 import "./Card.css";
-const Card = (cards) => {
+ export  const  Card = ({title , description , img }) => {
   return (
     <div className='card'>
-        <h1>{cards.title}</h1>
-        <p>{cards.description}</p>
+         {/* <img src="https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg" alt="" width={333} style={{border:"2px solid black"}} srcset="" /> */}
+
+         <img src={img}alt="" srcset="" />
+        <h1>{title}</h1>
+        <p>{description}</p>
     </div>
   )
 }
 
-export default Card
+export  const  Buttons = ({title  ,  }) => {
+  return (
+    <button>{title}</button>
+  )
+}
