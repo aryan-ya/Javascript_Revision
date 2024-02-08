@@ -12,8 +12,15 @@ import "./Card.css";
   )
 }
 
-export  const  Buttons = ({title  ,  }) => {
+export  const  Buttons = ({title    }) => {
   return (
     <button>{title}</button>
   )
 }
+
+export const Heading =({heading}) =>{
+    return(
+      <h1>{heading}</h1>
+    )
+}
+

@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import { Buttons, Card } from "./Components/Card";
+import { Buttons, Card, Heading } from "./Components/Card";
 
 function App() {
   return (
@@ -40,9 +40,13 @@ function App() {
       <Buttons title="click me" />
       <Buttons title="clickk me" />
       <Buttons title="clickkk me" />
+      <Heading heading ="aryah" />
+
+      
       <Footer />
     </>
   );
+  // props are arguments passed into react components
 }
 
 export default App;
