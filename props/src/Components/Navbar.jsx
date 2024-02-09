@@ -21,13 +21,7 @@ const Navbar = () =>{
    <input type="text" />
     </ul>
   </nav>
-  <form className="form-horizontal">
-{/*                
-                <input type="text" className="form-control"  name="title" />
-                
-            </form>
-          
-            <button type="button" onClick= className="btn">Save</button> */}
+
 </div>
 </> 
  )
